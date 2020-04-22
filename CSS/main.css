@@ -1,0 +1,662 @@
+        /*СПЕЦИФИКАЦИЯ*/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Playfair Display" sans-serif;
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	line-height: 1.1em;
+}
+h2{
+	font-size: 22px;
+}
+h4{
+	font-style: 14px;
+}
+section {
+	
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+{
+	outline: none;
+}
+.btn{
+	font-size: 16px;
+	display: block;
+	width: 119px;
+	padding: 12px 0;
+	text-align: center;
+	border:1px solid #00e0d0;
+	border-radius: 3px;
+	color: #fff;
+	font-family: Hammersmith One, sans-serif;
+}
+.btn:hover{
+	background: #00e0d0;
+	color: #fff;
+}
+.border-right{
+	border-right: 1px solid #ebebeb;
+}
+
+
+                           
+                            /*heoro*/
+.header{
+	background: #342b57 url(../Img/photo/header.jpg) no-repeat center top /cover;
+}
+.nav{
+	padding-top: 15px;
+}
+.logo{
+
+}
+.logo__text{
+	font-size: 30px;
+	font-weight: 100;
+	color: #17a6a4;
+	margin-left: 11px;
+}
+.menu{
+	width: 530px;
+}
+.menu__link{
+	font-size: 13px;
+	color: #fff;
+	font-weight: 900;
+
+}
+.menu__link:hover{
+	color: #00e0d0;
+}
+.offer{
+    margin-top: 145px;
+	color: #fff;
+	margin:center;
+	text-align: center;
+}
+.offer__title{
+	font-family: Playfair Display, sans-serif;
+	font-weight: 900;
+	font-size: 32px;
+}
+.offer__title:after{
+	content: " ";
+	display: block;
+	border-bottom: 1px solid #17a6a4;
+	width: 50px;
+	margin:25px auto 18px;
+}
+.offer__text{
+	width: 760px;
+	font-weight: 300;
+	margin:auto;
+}
+.offer__btn{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 125px;
+}
+
+.offer__dots{
+	width: 59px;
+	margin: auto;
+	text-align: center;
+}
+.offer__dot{
+	border: 1px solid #fff;
+	border-radius:50% ;
+	width: 10px;
+	height: 10px;
+	margin-bottom: 45px;
+}
+.offer__dot_first{
+	border-color: #00e0d0;
+	background: #00e0d0;
+}
+
+                            /*New Section*/
+
+.our-story{
+margin: 68px auto 70px;
+}
+.our-story__img{
+margin-left: 70px;
+}
+.story-version{
+margin-left: 100px;
+}
+.story-version__title{
+color: #413d4b;
+margin-bottom: 25px;
+font-family: Playfair Display, sans-serif;
+font-weight: 700;
+}
+.story-version__text{
+color: #817f86;
+margin-bottom: 30px;
+font-weight: 300;
+}
+.story-version__btn{
+	color: #00e0d0;
+}
+.story-version__btn:hover{
+	color: #fff;
+	background:#00e0d0; 
+}
+
+                         /*New Section*/
+.watch-story{
+	background: url(../Img/photo/threeSection.jpg) no-repeat center top /cover;
+	text-align: center;
+	padding-top:211px;
+	padding-bottom: 200px;
+}
+.watch{
+	
+}
+.watch__link{
+	display: block;
+	width: 104px;
+	margin: 0 auto;
+}
+
+.watch__border-play{
+	border: 3px solid #fff;
+	width: 95px;
+	height: 95px;
+	border-radius:50px ;
+	display: block;
+	padding: 22px 30px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.watch__text{
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: 900;	
+}
+
+
+                       /*New Section*/
+.expertise{
+	padding-top: 70px;
+	padding-bottom: 69px;
+}
+.expertises__list_first{
+	
+}
+.expertises__title{
+text-align: center;
+color: #413d4b;
+font-family: Playfair Display, sans-serif;
+font-weight: 900;
+}
+.expertises__text{
+text-align: center;
+color: #78777b;
+font-family: Playfair Display, sans-serif;
+margin-top: 16px;
+}
+.expertises__list{
+}
+.expertises__item{
+	width: 317px;
+	height: 250px;
+	text-align: center;
+}
+.expertises__text:after{
+	content: " ";
+	display: block;
+	border-bottom: 1px solid #c6c4c9;
+	width: 50px;
+	margin:18px auto 47px;
+}
+.expertises__icon{
+	margin-bottom: 33px;
+	margin-top: 31px;
+}
+.expertises__icon_brush{
+margin-bottom: 40px;
+}
+.expertises__item-title{
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	margin-bottom: 25px;
+	color: #413d4b;
+}
+.expertises__item-text{
+	color: #7a7a7a;
+	padding: 0px 25px;
+}
+.expertises__list_first{
+border-bottom:1px solid #ebebeb;
+}
+
+
+                            /*New Section*/
+                               /*meeet*/
+.meet{
+	background: url(../Img/photo/fiveSection.jpg) no-repeat center top /cover;	
+	padding: 69px 0 ;
+	color: #fff;
+	text-align: center;
+
+}
+.meet__title{
+	font-family: Playfair Display, sans-serif;
+	font-size: 22px;
+	font-weight: 900;
+	text-align: center;
+	margin-bottom: 14px;
+}
+.meet__text{
+	font-family: Playfair Display, sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+.meet__text:after{
+	content: " ";
+	display: block;
+	border-bottom: 1px solid #655c80;
+	width: 50px;
+	margin:18px auto 47px;
+}
+.persons{
+
+}
+.persons__item{
+border: 1px solid rgba(255, 255, 255, 0.54);
+}
+.persons__photo{
+height: 229px;
+width: 200px;
+display: block;
+background: #f3f3f5;
+border: 2px solid #fff;
+}
+.persons__name{
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 900;
+padding-top: 22px;
+padding-bottom: 6px;
+}
+.profesions__prof{
+color: #c1c0c8;
+font-size: 13px;
+font-weight: 400;
+padding-bottom: 14px;
+}
+.become-part{
+margin-top: 69px;
+color: #f3f3f3;
+font-size: 14px;
+}
+.button-hiring{
+margin:28px auto 0;
+width: 139px;
+color: #00e0d0;
+font-family: Hammersmith One, sans-serif;
+font-size: 16px;
+}
+.button-hiring:hover{
+color: #fff;
+background: #00e0d0;
+}
+
+                             /*New Section*/
+.our-works{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.our-workss__title{
+	color: #413d4b;
+	font-family: Playfair Display, sans-serif;
+}
+.our-workss__link{
+	color: #413d4b;
+	font-style: 14px;
+	font-weight: 300;
+}
+.sqv-mar{
+	margin-top:69px;
+}
+.squares{
+
+}
+.color__one{
+background: #b6b6b6;
+}
+.color__two{
+	background: #acacac;
+}
+.color__three{
+background: #a1a1a1;
+}
+.color__four{
+background: #8a8a8a;
+}
+.color__six{
+background: #a4a4a4;
+}
+.sqv_size{
+	width: 16.7%;
+	height: 200px;
+	display: block;
+}
+.btn-load-more{
+	margin: 70px auto 0;
+	color: #00e0d0;
+	width: 139px;
+}
+.btn-load-more:hover{
+	color: #fff;
+	background: #00e0d0;
+}
+
+
+                             /*New Section*/
+                                /*autors*/
+.autors{
+	background: url(../Img/photo/sevenSection.jpg) no-repeat top center /cover;
+	text-align: center;
+	color: #fff;
+	padding-top: 67px;
+	padding-bottom: 69px;
+}
+.brackets{
+	font-family: Playfair Display, sans-serif;
+	font-size: 100px;
+	font-weight:400 ;
+	text-align: center;
+	display: block;
+	line-height: 0.7em;
+}
+.about-product{
+	width: 732px;
+	display: block;
+	margin:0 auto;
+	font-family: Playfair Display,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.autor__name{
+	font-weight: 900;
+	margin-bottom: 8px;
+	letter-spacing: 0.09em;
+	margin-top: 53px;
+}
+.director{
+	color: #cfced4;
+	font-style: 13px;
+	font-weight: 400;
+}
+.autors-list{
+	width: 400px;
+	margin: 43px auto 0;
+	color: #fff;
+}
+.fa-chevron-left{
+font-size: 20px;
+color: rgba(255, 255, 255, 0.56);
+}
+.fa-chevron-right{
+font-size: 20px;
+color: rgba(255, 255, 255, 0.56);
+}
+
+							/*New Section*/
+.news{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.letter{
+	width: 460px;
+}
+.letter-title{
+	font-family: Playfair Display, sans-serif;
+	font-weight: 900;
+	color: #413d4b;
+	margin-bottom: 15px;
+}
+.form__item{
+	width: 459px;
+	padding: 15px;
+	margin-top: 25px;
+	border: 1px solid #e5e5e5;
+
+	
+}
+.brends__icon{
+	margin-bottom: 47px;
+}
+.form__massages{
+	width: 430px;
+	height: 200px;
+	padding: 
+}
+.form__btn{
+	color: #00e0d0;
+	margin-top: 20px;
+	background: #fff;
+}
+.brendss{
+	width: 380px;
+	height: 490px;
+}
+.clients__title{
+	 margin-top: -83px;
+	 font-family: Playfair Display, sans-serif;
+	font-weight: 900;
+	color: #413d4b;
+	    margin-top: 1px;
+}
+.brends__icon{
+	margin-right: 80px;
+	margin: 31px auto;
+}
+.clients{
+width: 380px;
+
+}
+.clients__brends{
+	width: 390px;
+	 margin-left: -17px;
+}
+.brends_mr-top{
+	margin-top: 15px;
+}
+
+
+                        /*Footer*/
+.footer{
+	background: url(../Img/photo/footer.jpg) no-repeat center top /cover ;
+	padding: 70px 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+.left{
+	width: 286px;
+	margin-top: -15px;
+}
+.left__text{
+margin-top: 23px;
+font-style: 14px;
+}
+.center{
+	width: 280px;
+	display: block;
+	margin-top: 23px;
+}
+.center-loc{
+	margin-top: 8px;
+}
+.center-loc__address{
+margin-top: 23px;
+font-style: 14px;
+}
+.fa-map-marker-alt{
+	margin-right: 14px;
+	margin-top: 26px;
+}
+.center-phone{
+	margin-top: 20px;
+	font-style: 14px;
+}
+.fa-phone{
+	margin-right: 14px;
+}
+.right{
+	width: 301px;
+	margin-top: 5px;
+	display: block;
+	margin-top: 23px;
+}
+.right__title{
+margin-bottom: 39px;
+}
+.letter__newsletter{
+	width: 210px;
+	padding: 14px 15px;
+	border: 1px solid #d9d8de;
+	display: block;
+	font-style: 14px;
+	color: #d9d8de
+}
+.fa-paper-plane{
+	color: #000;
+}
+
+.news-letter__btn{
+width: 70px;
+height: 45px;
+background: rgba(255, 255, 255, 0.49);
+text-align: center;
+margin-left: 11px;
+line-height: 1.8em;
+font-size: 25px;
+}
+.social{
+	width: 261px;
+}
+.social__item{
+	border: 1px solid #fff;
+	border-radius: 50px;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 2.2em;
+	margin-top: 25px;
+}
+.social__item a{
+	color: #fff;
+}
+.footer-bottom{
+	margin-top: 65px;
+}
+.footer-bottom__privacy_item{
+	margin-right: 32px;
+}
+.footer-bottom__privacy_item a{
+	color: #fff;
+	font-weight: 300;
+	font-size: 14px;
+}
+.footer-bottom__privacy_item a:hover{
+	color:#00e0d0;
+}
+.footer-bottom_creative{
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/* ------------------------MEDIA QUERIES---------------------------- */
+                          /*992-1200px*/	
+@media screen and (max-width: 1200px){
+.cantainer{
+	width: 100%;
+}
+}
+						/*768-992px*/
+@media screen and (max-width: 992px){
+.container{
+	width: 700px;
+  }
+  .menu{
+  	display: none;
+  }
+  .offer__text {
+    width: 555px;
+}
+}
+                         /*576-768px*/
+@media screen and (max-width: 768px){
+.container{
+	width: 520px;
+    }
+}
+/*320-576PX*/
+@media screen and (max-width: 576px){
+.container{
+	width: 90%;
+}
+}
